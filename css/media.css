@@ -1,0 +1,554 @@
+/* (layout tablet): 768px - 1199px */
+@media (min-width: 641px) and (max-width: 1199px) {
+  /*header*/
+  .header {
+    background-image: url("../images/banner-bg-tablet.jpg");
+  }
+
+  .header-container {
+    padding-top: 44px;
+    max-width: 728px;
+  }
+
+  .header-logo {
+    width: 158px;
+  }
+
+  .header-title {
+    width: 604px;
+    margin-top: 89px;
+    margin-bottom: 83px;
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+  }
+
+  /*trend*/
+  .trend {
+    padding-top: 42px;
+  }
+
+  .trends-title {
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+  }
+
+  .trend-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .trend-post {
+    width: 49%;
+    flex-grow: 1;
+    min-height: 247px;
+  }
+
+  .trend-post:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .trend-post:not(:nth-child(2n)) {
+    margin-right: 4px;
+  }
+
+  .trend-text {
+    padding: 29px;
+  }
+
+  .trend-link {
+    font-size: 0.875rem;
+  }
+
+  .trend-title {
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+  }
+
+  /*main*/
+  .main-container {
+    padding-top: 26px;
+    padding-bottom: 22px;
+  }
+
+  /*news*/
+  .news-title {
+    margin-bottom: 26px;
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+  }
+
+  .news-time {
+    font-size: 0.71rem;
+  }
+
+  .news-paragraph {
+    margin-top: 29px;
+    font-size: 0.875rem;
+  }
+
+  /*aside*/
+  .sidebar {
+    flex-shrink: 0;
+    width: 293px;
+    padding-right: 22px;
+  }
+
+  .sidebar-title-main {
+    margin-top: -3px;
+  }
+
+  .sidebar-title-main::after {
+    padding-top: 8px;
+  }
+
+  .link-theme {
+    font-size: 0.875rem;
+  }
+
+  /*product*/
+  .product {
+    padding-bottom: 25px;
+  }
+
+  .products-title {
+    font-size: 1.125rem;
+  }
+
+  .product-list {
+    flex-wrap: wrap;
+  }
+
+  .product-item {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 28px;
+    margin-bottom: 23px;
+  }
+
+  .product-text {
+    width: 100%;
+    max-width: 290px;
+    outline-offset: 21px;
+    padding-bottom: 4px;
+  }
+
+  .product-title {
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+  }
+
+  .product-paragraph {
+    margin-top: 4px;
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+  }
+
+  .product-price-old {
+    font-size: 0.875rem;
+  }
+
+  .product-price-new {
+    font-size: 1.25rem;
+  }
+  /*footer*/
+  .footer-container {
+    max-width: 728px;
+  }
+}
+
+/* (layout for 1199) */
+@media (max-width: 1199px) {
+  /*popup*/
+  .popup-icon-cross {
+    top: -36px;
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+  }
+
+  .popup-form {
+    padding: 51px 30px;
+  }
+
+  .popup-title {
+    font-size: 1.125rem;
+  }
+
+  .popup-title::after {
+    margin-top: 11px;
+  }
+
+  .popup-label-select {
+    margin-bottom: 32px;
+  }
+
+  .popup-wrapper-checkbox {
+    margin-top: 10px;
+  }
+
+  .popup-label-checkbox-yes {
+    margin-right: 33px;
+    margin-left: 3px;
+  }
+
+  .popup-span-radiotext::before {
+    height: 22px;
+    width: 22px;
+    margin-right: 9px;
+    background-size: 22px;
+  }
+
+  .popup-span-textaria {
+    margin-top: 26px;
+    font-size: 0.8325rem;
+  }
+
+  .popup-textaria {
+    padding: 19px 22px;
+    font-size: 0.87rem;
+  }
+
+  .popup-btn {
+    margin-top: 29px;
+  }
+
+  /*header*/
+  .header-list {
+    display: none;
+  }
+
+  .header-burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22px;
+    height: 20px;
+    background-color: transparent;
+  }
+
+  .header-burger-span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background: #ffff;
+  }
+
+  /*trend*/
+  .trend-post {
+    margin-bottom: 4px;
+  }
+
+  /*news*/
+  .news {
+    width: 778px;
+  }
+
+  .news-article {
+    position: relative;
+    flex-direction: column;
+    padding-left: 22px;
+  }
+
+  .news-article::after {
+    content: "";
+    display: block;
+    width: 98%;
+    margin-top: 17px;
+    border-bottom: 3px solid #eeee;
+  }
+
+  .news-article:not(:last-child) {
+    margin-bottom: 41px;
+  }
+
+  .news-img {
+    width: 100%;
+    min-width: 0;
+    max-width: 392px;
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+  /*aside*/
+  .sidebar-email-btn {
+    width: 100%;
+  }
+
+  /*product*/
+  .product-item {
+    width: calc(50% - 10px);
+  }
+
+  /*footer*/
+  .footer-top {
+    margin-bottom: 44px;
+  }
+
+  .footer-list {
+    padding-left: 7px;
+  }
+
+  .footer-copyright {
+    padding-left: 13px;
+  }
+}
+
+/* (layout mobile): 360px */
+@media (max-width: 640px) {
+  /*popup*/
+  .popup-form {
+    max-width: 330px;
+  }
+
+  .popup-icon-cross {
+    top: -32px;
+  }
+
+  .popup-form {
+    padding: 25px 25px;
+  }
+
+  .popup-title {
+    padding-left: 0;
+    margin-bottom: 24px;
+    font-size: 1rem;
+  }
+
+  .popup-select {
+    background-position: 94.5% 55%;
+  }
+
+  .popup-wrapper-checkbox {
+    margin-left: -3px;
+    margin-top: 9px;
+  }
+
+  .popup-label-checkbox-yes {
+    margin-right: 34px;
+  }
+
+  .popup-span-textaria {
+    margin-top: 30px;
+  }
+
+  /*header*/
+  .header {
+    background-image: url("../images/banner-mobile.jpg");
+  }
+
+  .header-top {
+    flex-direction: column-reverse;
+  }
+
+  .header-container {
+    max-width: 360px;
+    padding-bottom: 111px;
+  }
+
+  .header-logo {
+    margin-top: 175px;
+    width: 269px;
+  }
+
+  .header-burger-btn {
+    align-self: flex-end;
+    height: 21px;
+    padding-top: 2px;
+  }
+
+  .header-title {
+    width: 280px;
+    margin-top: 34px;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+    word-wrap: break-word;
+  }
+
+  /*trend*/
+  .trend {
+    padding-top: 39px;
+  }
+
+  .trends-title {
+    margin-bottom: 24px;
+    font-size: 1rem;
+  }
+
+  .trends-title::after {
+    margin-top: 7px;
+  }
+
+  .trend-wrapper {
+    flex-direction: column;
+  }
+
+  .trend-post {
+    width: 100%;
+    min-height: 232px;
+    margin-bottom: 2px;
+  }
+
+  .trend-post:not(:nth-child(2n)) {
+    margin-right: 0;
+  }
+
+  .trend-text {
+    margin: 16px 16px;
+    padding: 27px 18px;
+    padding-right: 25px;
+  }
+
+  .trend-title {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .trend-list {
+    margin-bottom: 6px;
+  }
+
+  /*main*/
+  .main-container {
+    flex-direction: column;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    max-width: 360px;
+  }
+
+  /*news*/
+  .news {
+    width: 100%;
+  }
+
+  .news-article {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .news-img {
+    margin-bottom: 15px;
+  }
+
+  .news-title {
+    margin-bottom: 14px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .news-time {
+    margin-right: 6px;
+  }
+
+  .news-paragraph {
+    margin-top: 13px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .news-article::after {
+    margin-top: 20px;
+  }
+
+  .news-article:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  /*aside*/
+  .sidebar {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 41px;
+  }
+
+  .sidebar-title-main {
+    font-size: 1rem;
+  }
+
+  .sidebar-time {
+    margin-bottom: 3px;
+  }
+
+  .sidebar-form-title {
+    font-size: 1rem;
+  }
+
+  .sidebar-form-email {
+    margin-top: 37px;
+  }
+
+  .nav-tag {
+    margin-top: 40px;
+  }
+
+  .title-tag {
+    font-size: 1rem;
+  }
+
+  .title-tag::after {
+    padding-top: 9px;
+  }
+
+  .item-tag:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  .link-tag {
+    padding: 4px 13px;
+  }
+
+  .nav-theme {
+    margin-top: 34px;
+  }
+
+  .title-theme {
+    font-size: 1rem;
+  }
+
+  .title-theme::after {
+    padding-top: 9px;
+  }
+  /*product*/
+  .product-container {
+    max-width: 360px;
+  }
+
+  .product {
+    padding-bottom: 64px;
+  }
+
+  .products-title {
+    font-size: 1rem;
+  }
+
+  .product-list {
+    flex-direction: column;
+  }
+
+  .product-item {
+    width: 100%;
+  }
+
+  .product-item:not(:last-child) {
+    margin-bottom: 48px;
+  }
+
+  .product-title {
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+  }
+
+  .product-paragraph {
+    margin-top: 2px;
+    font-size: 0.9375rem;
+    line-height: 1.375rem;
+  }
+
+  .product-footer {
+    margin-top: 20px;
+  }
+
+  /*footer*/
+  .footer-container {
+    max-width: 360px;
+  }
+}
