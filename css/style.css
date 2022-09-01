@@ -332,7 +332,11 @@ body {
   flex-direction: row;
 }
 
-.header-item:not(:last-child) {
+/* .header-item:not(:last-child) {
+  margin-right: 38px;
+} */
+
+.header-indent {
   margin-right: 38px;
 }
 
@@ -411,7 +415,11 @@ body {
   min-height: 319px;
 }
 
-.trend-post:not(:last-child) {
+/* .trend-post:not(:last-child) {
+  margin-right: 4px;
+} */
+
+.trend-article-indent {
   margin-right: 4px;
 }
 
@@ -463,7 +471,11 @@ body {
   margin-bottom: 5px;
 }
 
-.trend-item:not(:last-child) {
+/* .trend-item:not(:last-child) {
+  margin-right: 20px;
+} */
+
+.trend-indent {
   margin-right: 20px;
 }
 
@@ -507,12 +519,16 @@ body {
   display: flex;
 }
 
-.news-article:not(:last-child) {
+/* .news-article:not(:last-child) {
+  margin-bottom: 61px;
+} */
+
+.news-article-indent {
   margin-bottom: 61px;
 }
 
 .news-img {
-  min-width: 381px;
+  /* min-width: 381px; */
   margin-right: 30px;
 }
 
@@ -523,7 +539,11 @@ body {
   flex-wrap: wrap;
 }
 
-.news-item:not(:last-child) {
+/* .news-item:not(:last-child) {
+  margin-right: 19px;
+} */
+
+.news-indent {
   margin-right: 19px;
 }
 
@@ -586,7 +606,7 @@ body {
 /*aside*/
 
 .sidebar {
-  width: 271px;
+  width: 23%;
   margin-left: 30px;
 }
 
@@ -616,7 +636,11 @@ body {
   display: flex;
 }
 
-.sidebar-article:not(:last-child) {
+/* .sidebar-article:not(:last-child) {
+  margin-bottom: 22px;
+} */
+
+.sidebar-article-indent {
   margin-bottom: 22px;
 }
 
@@ -781,7 +805,11 @@ body {
   margin-bottom: 5px;
 }
 
-.item-tag:not(:last-child) {
+/* .item-tag:not(:last-child) {
+  margin-right: 3px;
+} */
+
+.item-tag-indent {
   margin-right: 3px;
 }
 
@@ -825,13 +853,17 @@ body {
   opacity: 0.4;
 }
 
-.item-theme:not(:last-child) {
+/* .item-theme:not(:last-child) {
+  margin-bottom: 11px;
+} */
+
+.item-theme-indent {
   margin-bottom: 11px;
 }
 
-.item-theme {
+/* .item-theme {
   width: 100%;
-}
+} */
 
 .item-theme::after {
   content: "";
@@ -901,7 +933,7 @@ body {
 .product-item {
   display: flex;
   width: 300px;
-  min-height: 400px;
+  /* min-height: 400px; */
 }
 
 .product-post {
@@ -910,8 +942,8 @@ body {
 }
 
 .product-text {
-  width: 100%;
-  max-width: 300px;
+  /* width: 100%;
+  max-width: 300px; */
   flex-grow: 1;
   margin-top: 15px;
   margin-top: -13px;
@@ -1009,7 +1041,11 @@ body {
   padding-bottom: 33px;
 }
 
-.footer-item:not(:last-child) {
+/* .footer-item:not(:last-child) {
+  margin-right: 22px;
+} */
+
+.footer-item-indent {
   margin-right: 22px;
 }
 
